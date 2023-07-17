@@ -1,0 +1,67 @@
+.updatesMain {
+    margin: 121px 0px;
+}
+.updatesImg{
+    background: url("/public/images/updates.png");
+    width: 100%;
+    height: 541px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.updatesCnt{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+}
+.updatesCnt h2{
+    font-size: 32px;
+}
+.updatesCnt p {
+    margin: 0px 382px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.updateBtn {
+    width: 252px;
+    height: 46px;
+    background-color: rgb(33, 42, 47);
+    color: white;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1px;
+    margin-top: 28px;
+}
+/* media query */
+@media screen and (max-width: 820px){
+    .updatesImg {
+        height: 330px;
+    }
+    .updatesCnt p {
+        font-size: 14px;
+        margin: 0px 77px;
+       
+    }
+ 
+}
+@media screen and (max-width: 414px){
+    .updatesCnt p {
+        display: none;
+    }
+    .updatesCnt h2 {
+        font-size: 24px;
+    }
+}
+

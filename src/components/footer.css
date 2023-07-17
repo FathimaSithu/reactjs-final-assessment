@@ -1,0 +1,167 @@
+
+.footer {
+    height: 770px;
+      background-color: #212a2f;
+}
+.footerInfo {
+    display: flex;
+    justify-content: left;
+    color: #ffffff;
+    width: 100%;
+}
+.footerHeading {
+    margin-top: 2%;
+    padding-right: 10%;
+}
+.footerHeading h3 {
+    font-weight: 600;
+    text-align: center;
+    margin: 37px 31px 0 0;
+}
+.footerHeading h3:nth-child(2){
+    margin: 37px 53px 0 0;
+}
+ul.footerUl {
+    list-style: none;
+    line-height: 1.6;
+    text-align: -webkit-match-parent;
+}
+
+
+.footerList a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.footerCnt {
+    color: white;
+    display: flex;
+    margin-top: 3%;
+}
+.footerCntText {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    line-height: 1.7;
+    margin: 0% 10% 0 2%;
+}
+.footerCntText h3 {
+    margin-bottom: 1%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footerBtn {
+    display: flex;
+    flex-direction: column;
+}
+.footerCntText p{
+    font-size: 13px;
+}
+.footerBtn1 {
+    width: 233px;
+    height: 31px;
+    background-color: #ffffff;
+    font-size: 10px;
+    line-height: normal;
+    color: #162448;
+    font-weight: 400;
+    border: none;
+    margin: 18px 0 14px 0;
+}
+
+.footerBtn2 {
+    width: 180px;
+    height: 31px;
+    background-color: #0c426e;
+    color: #ffffff;
+    border: none;
+}
+
+.icons {
+    display: flex;
+    margin: 65px 0 157px 0;
+}
+
+.icons a {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.icons a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.license {
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+}
+.license a{
+    color: white;
+}
+img.iconImg {
+    height: 110px;
+    width: 74px;
+}
+img.logoImg {
+    height: 18px;
+    width: 18px;
+    padding: 0px 6% 0 0;
+}
+.footerFlags {
+    margin: 0% 0 0 6%;
+}
+img.flagImg {
+    padding: 0 19px 0 0;
+    margin-left: 10px;
+}
+/* media query */
+
+
+
+
+@media screen and (max-width: 414px) {
+    .footerHeading:nth-child(1){
+        display: flex;
+        flex-direction: column;
+    }
+    .footerHeading{
+        display: none;
+    }
+    .footerHeading h3 {
+        margin: 37px 2px 0 0;
+    }
+    .footerIcon {
+        display: none;
+    }
+    .footerCntText p {
+        display: none;
+        
+    }
+    .footerCntText {
+    text-align: center;
+        width: 100%;
+    }
+    .footerFlags {
+     
+        display: none;
+    }
+    .footerInfo {
+      
+        justify-content: center;
+   
+    }
+    .signupMain {
+        margin-top: 0px;
+     
+    }
+}

@@ -1,0 +1,11 @@
+.favouritesMain {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.favouritesTitle h2 {
+  font-size: 32px;
+  text-transform: capitalize;
+  margin: 27px 0px;
+  color: #212a2f;
+}
